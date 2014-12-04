@@ -61,6 +61,10 @@ address {
 	padding: 0;
 }
 
+.leading {
+	line-height:1.3;
+	margin-bottom:10px;
+}
 
 /* misc */
 hr {
@@ -84,6 +88,7 @@ hr {
     padding-bottom: 110px;
 	display:block;
     position:relative;
+    background-color:#e8e8e8;
     z-index:120;
 }
 
@@ -95,6 +100,9 @@ hr {
 	margin-bottom: 20px;
 }
 
+.description1 {
+	font-size:1em;
+}
 
 /* --- section bg var --- */
 
@@ -103,7 +111,7 @@ hr {
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #ccc;
 }
 
 
@@ -115,6 +123,10 @@ hr {
 
 .text-light {
 	color: #fff;
+}
+
+.leftalign {
+	text-align:left !important;
 }
 
 /* ============================
@@ -132,6 +144,7 @@ hr {
 .gn-menu-main,
 .gn-menu-main ul {
 		margin: 0;
+		margin-right: 10px;
 		padding: 0;
 		background: #fff;
 		color: #9254F0;
@@ -460,7 +473,7 @@ input.gn-search:focus {
 }
 
 .intro .slogan {
-	padding:250px 0 60px;
+	padding:600px 0 60px;
 	text-align: center;
 	
 }
@@ -483,6 +496,15 @@ input.gn-search:focus {
 
 .intro-text {
     font-size: 18px;
+}
+
+.hero {
+    width:60%;
+    margin-top:170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:5%;
+    overflow:hidden;
 }
 
 
@@ -512,6 +534,13 @@ input.gn-search:focus {
 /* ===========================
 --- About
 ============================ */
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border: 0;
+	border-top: 1px solid #bbb;
+}
 
 .boxed-grey {
 	background: #eee;
@@ -634,6 +663,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 .company-social {
 	margin-left: 0;
+	margin-right: 5px;
 	padding-left: 0;
 	margin-top: 10px;
 }
@@ -667,18 +697,17 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	margin:0;
 	padding:0;
 }
-.company-social .social-facebook a{background: #3873ae;}
-.company-social .social-twitter a{background: #62c6f8;}
-.company-social .social-dribble a{background: #d74980;}
-.company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
-.company-social .social-vimeo a{background: #51a6d3;}
-.company-social .social-facebook a:hover{background: #4893ce;}
-.company-social .social-twitter a:hover{background: #82e6ff;}
-.company-social .social-dribble a:hover{background: #f769a0;}
-.company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
-.company-social .social-vimeo a:hover{background: #71c6f3;}
+.company-social .social-facebook a{background: #666; margin:1px;}
+.company-social .social-twitter a{background: #666; margin:1px;}
+.company-social .social-dribble a{background: #666; margin:1px;}
+
+.company-social .social-facebook a:hover{background: #3873ae;}
+.company-social .social-twitter a:hover{background: #62c6f8;}
+.company-social .social-dribble a:hover{background: #d74980;}
+
+.fa {
+	font-size:15px;
+}
 
 
 
@@ -688,8 +717,14 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 ;
-	
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background-color:#333 !important;	
+}
+
+.lighter {
+	color:#eee;
+	text-transform: uppercase;
 }
 
 footer p {
